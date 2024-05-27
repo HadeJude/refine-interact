@@ -6,7 +6,7 @@
 
 return {
     Debug = GetConvar('debug', 'false') == 'true' and true or false, -- Enable / Disable debug mode
-    Style = 'gold_circle', -- gold_circle (default), blue_circle, green_square, glitch
+    Style = 'expired_ui', -- gold_circle (default), blue_circle, green_square, glitch, expired_ui, red_expired_ui
     Textures = { -- Do not change
         pin = 'pin',
         interact = 'interact',
